@@ -1,0 +1,100 @@
+/* styles.css */
+
+/* Apply font and base styling */
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(0, 0%, 100%);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    width: 350px; /* Approximate size for desktop design */
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .photo img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .text h4 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  .text p {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    margin-top: 10px;
+  }
+  
+  .icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  
+  .icons .text, .icons .text2 {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+  }
+  
+  .icons img {
+    width: 15px;
+    margin-top: 20px;
+  }
+  
+  .icons h5, .icons p {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+  }
+  
+  .footer {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 15px;
+    border-top: 1px solid hsl(215, 32%, 27%);
+    padding-top: 20px;
+    align-items: center;
+  }
+  
+  .footer img {
+    width: 30px;
+    border-radius: 50%;
+  }
+  
+  .footer p {
+    font-size: 0.9rem;
+    color: hsl(215, 51%, 70%);
+  }
+  
+  .footer span {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+  }
+  
+  /* Attribution styling */
+  .attribution {
+    font-size: 0.75rem;
+    text-align: center;
+    margin-top: 20px;
+    color: hsl(215, 51%, 70%);
+  }
+  
+  .attribution a {
+    color: hsl(178, 100%, 50%);
+  }
